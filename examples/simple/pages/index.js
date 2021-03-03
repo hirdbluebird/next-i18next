@@ -19,7 +19,7 @@ const Homepage = () => {
         <div>
           <Link
             href='/'
-            locale={router.locale === 'en' ? 'de' : 'en'}
+            locale={router.locale === 'en-us' ? 'de-de' : 'en-us'}
           >
             <button>
               {t('change-locale')}
